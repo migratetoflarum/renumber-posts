@@ -1,0 +1,44 @@
+{
+    "name": "migratetoflarum/renumber-posts",
+    "description": "Re-number posts on the forum",
+    "keywords": [
+        "extension",
+        "flarum",
+        "migration",
+        "number"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Clark Winkelmann",
+            "email": "clark.winkelmann@gmail.com",
+            "homepage": "https://clarkwinkelmann.com/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/migratetoflarum/renumber-posts/issues",
+        "source": "https://github.com/migratetoflarum/renumber-posts"
+    },
+    "require": {
+        "flarum/core": ">=0.1.0-beta.13 <0.1.0-beta.15"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Renumber Posts",
+            "icon": {
+                "name": "fas fa-sort-numeric-down",
+                "backgroundColor": "#e7672e",
+                "color": "#fafafa"
+            }
+        },
+        "flagrow": {
+            "discuss": ""
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "MigrateToFlarum\\RenumberPosts\\": "src/"
+        }
+    }
+}
