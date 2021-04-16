@@ -170,7 +170,7 @@ class RenumberCommand extends Command
         /**
          * @var $url RouteCollectionUrlGenerator
          */
-        $url = app(UrlGenerator::class)->to('forum');
+        $url = resolve(UrlGenerator::class)->to('forum');
 
         $this->info($type . ': ' . $url->route('discussion', [
                 'id' => $discussion->id,

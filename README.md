@@ -11,8 +11,6 @@ I strongly recommend you test the command on a backup first before running it on
 
 ## Installation and update
 
-Compatible with both beta 13 and beta 14.
-
     composer require migratetoflarum/renumber-posts
 
 ## Documentation

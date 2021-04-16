@@ -17,23 +17,20 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/migratetoflarum/renumber-posts/issues",
         "source": "https://github.com/migratetoflarum/renumber-posts"
     },
     "require": {
-        "flarum/core": ">=0.1.0-beta.13 <0.1.0-beta.15"
+        "flarum/core": "^0.1.0-beta.16"
     },
     "extra": {
         "flarum-extension": {
             "title": "Renumber Posts",
+            "category": "feature",
             "icon": {
                 "name": "fas fa-sort-numeric-down",
                 "backgroundColor": "#e7672e",
                 "color": "#fafafa"
             }
-        },
-        "flagrow": {
-            "discuss": ""
         }
     },
     "autoload": {
